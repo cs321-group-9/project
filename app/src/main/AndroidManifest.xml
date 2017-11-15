@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="zluo.org.androidschedule"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+    
+	<!-- permission - vibrate -->
+	<uses-permission android:name="android.permission.VIBRATE"/>
+	<!-- permission - receive boot -->
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>	
+	
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:allowBackup="true"
+        android:theme="@style/ConcealTitle" >
+         <uses-library android:name="android.test.runner"/>
+        <activity
+            android:name="zluo.org.load.LoadActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="zluo.org.androidschedule.MainActivity"
+            android:label="@string/app_name" >        
+        </activity>        
+        <activity
+            android:name="zluo.org.editschedule.SetActivity"
+            android:label="@string/app_name" >        
+        </activity>
+        <activity
+            android:name="zluo.org.about.AboutUsActivity"
+            android:label="@string/app_name" >        
+        </activity>
+         <activity
+            android:name="zluo.org.version.VersionActivity"
+            android:label="@string/app_name" >        
+        </activity>       
+        <activity 
+            android:name="zluo.org.editschedule.RemindActivity"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <receiver 
+            android:name="zluo.org.service.RemindReceiver"
+            android:process=":remote"> 
+        </receiver>
+         <receiver 
+            android:name="zluo.org.service.LauncherReceiver"
+            android:process=":remote"> 
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>      
+        <service 
+            android:name="zluo.org.service.SetQuietService" >
+            <intent-filter>
+                <action android:name="zluo.org.service.QUIET_SERVICE" />
+            </intent-filter>         
+        </service>
+    </application>
+</manifest> 

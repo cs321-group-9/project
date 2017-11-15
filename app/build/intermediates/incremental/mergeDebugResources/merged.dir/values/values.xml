@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="edit_options1">
+        <item>Add course</item>
+    </string-array>
+    <string-array name="edit_options2">
+        <item>Modify course</item>
+        <item>Delete course</item>
+    </string-array>
+    <string-array name="set_remind">
+        <item>5mins</item>
+        <item>10mins</item>
+        <item>20mins</item>
+        <item>30mins</item>
+        <item>40mins</item>
+        <item>50mins</item>
+        <item>60mins</item>
+    </string-array>
+    <string name="about_app">about_app</string>
+    <string name="app_name">G-Schedule</string>
+    <string name="back">Return</string>
+    <string name="cancle">Cancle</string>
+    <string name="course_address">Location：</string>
+    <string name="course_amount">#courses：</string>
+    <string name="course_name">Course：</string>
+    <string name="course_teacher">Prof：</string>
+    <string name="course_time">Time：</string>
+    <string name="course_week">C-weeks：</string>
+    <string name="edit_title">Course information</string>
+    <string name="exit">Exit</string>
+    <string name="finish">Finish</string>
+    <string name="heading">Course</string>
+    <string name="input_course_address">Input course address</string>
+    <string name="input_course_jieshu">Total#course less 4</string>
+    <string name="input_course_name">Input course name</string>
+    <string name="input_course_teacher">Input course prof</string>
+    <string name="input_course_week">#course</string>
+    <string name="jieshulimit">1 2 3 4</string>
+    <string name="menu_settings">Menu Setting</string>
+    <string name="message_set">Message Setting</string>
+    <string name="quiet">Quiet</string>
+    <string name="remind">Reminder</string>
+    <string name="revision">Revision</string>
+    <string name="set">Set</string>
+    <string name="to">to</string>
+    <string name="us">Us</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="ConcealTitle" parent="AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="edit_options1">
+        <item >Add course</item>
+    </string-array>
+    <string-array name="edit_options2">
+        <item >Modify course</item>
+        <item >Delete course</item>
+    </string-array>
+    <string-array name="set_remind">
+        <item >5mins</item>
+        <item >10mins</item>
+        <item >20mins</item>
+        <item >30mins</item>
+        <item >40mins</item>
+        <item >50mins</item>
+        <item >60mins</item>
+    </string-array>
+</resources>

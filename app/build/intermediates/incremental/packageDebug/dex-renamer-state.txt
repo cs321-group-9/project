@@ -1,0 +1,4 @@
+#Mon Nov 13 16:10:46 EST 2017
+base.0=/Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

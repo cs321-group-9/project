@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="cancle">Cancle</string>
+    <string name="finish">Finish</string>
+    <string name="app_name">G-Schedule</string>
+    <string name="menu_settings">Menu Setting</string>
+    <string name="set">Set</string>
+    <string name="message_set">Message Setting</string>
+    <string name="quiet">Quiet</string>
+    <string name="remind">Reminder</string>
+    <string name="about_app">about_app</string>
+    <string name="revision">Revision</string>
+    <string name="us">Us</string>
+    <string name="heading">Course</string>
+    <string name="exit">Exit</string>
+    <string name="back">Return</string>
+    <string name="edit_title">Course information</string>
+    <string name="course_name">Course：</string>
+    <string name="course_address">Location：</string>
+    <string name="course_teacher">Prof：</string>
+    <string name="course_amount">#courses：</string>
+    <string name="course_week">C-weeks：</string>
+    <string name="course_time">Time：</string>
+    <string name="input_course_name">Input course name</string>
+    <string name="input_course_address">Input course address</string>
+    <string name="input_course_teacher">Input course prof</string>
+    <string name="input_course_week">#course</string>
+    <string name="input_course_jieshu">Total#course less 4</string>
+    <string name="to">to</string>
+    <string name="jieshulimit">1 2 3 4</string>                    
+</resources>

@@ -1,0 +1,121 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:2:1-67:12
+	package
+		ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:3:5-39
+		INJECTED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:12:2-62
+	android:name
+		ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:12:19-60
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:14:2-77
+	android:name
+		ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:14:19-75
+application
+ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:16:5-66:19
+	android:allowBackup
+		ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:18:9-35
+	android:icon
+		ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:17:9-45
+	android:theme
+		ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:19:9-44
+uses-library#android.test.runner
+ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:20:10-60
+	android:name
+		ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:20:24-58
+activity#zluo.org.load.LoadActivity
+ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:21:9-28:20
+	android:label
+		ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:23:13-45
+	android:name
+		ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:22:13-54
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:24:13-27:29
+action#android.intent.action.MAIN
+ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:26:27-74
+activity#zluo.org.androidschedule.MainActivity
+ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:29:9-32:20
+	android:label
+		ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:31:13-45
+	android:name
+		ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:30:13-65
+activity#zluo.org.editschedule.SetActivity
+ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:33:9-36:20
+	android:label
+		ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:35:13-45
+	android:name
+		ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:34:13-61
+activity#zluo.org.about.AboutUsActivity
+ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:37:9-40:20
+	android:label
+		ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:39:13-45
+	android:name
+		ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:38:13-58
+activity#zluo.org.version.VersionActivity
+ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:41:10-44:20
+	android:label
+		ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:43:13-45
+	android:name
+		ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:42:13-60
+activity#zluo.org.editschedule.RemindActivity
+ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:45:9-48:20
+	android:theme
+		ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:47:13-56
+	android:name
+		ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:46:13-64
+receiver#zluo.org.service.RemindReceiver
+ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:49:9-52:20
+	android:process
+		ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:51:13-38
+	android:name
+		ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:50:13-59
+receiver#zluo.org.service.LauncherReceiver
+ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:53:10-59:20
+	android:process
+		ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:55:13-38
+	android:name
+		ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:54:13-61
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:56:13-58:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:57:17-78
+	android:name
+		ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:57:25-76
+service#zluo.org.service.SetQuietService
+ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:60:9-65:19
+	android:name
+		ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:61:13-60
+intent-filter#zluo.org.service.QUIET_SERVICE
+ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:62:13-64:29
+action#zluo.org.service.QUIET_SERVICE
+ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:63:17-73
+	android:name
+		ADDED from /Users/zhiwenluo/Desktop/CS321_Project_G-reminder/app/src/main/AndroidManifest.xml:63:25-70

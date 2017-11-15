@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/load"
+    android:gravity="center|center"
+    android:weightSum="1">
+
+ <EditText
+     android:id="@+id/editText5"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:layout_weight="0.22"
+     android:autoText="true"
+     android:ems="10"
+     android:inputType="textPersonName"
+     android:singleLine="false"
+     android:text="           G-Schedule"
+     android:textColor="@android:color/holo_red_dark"
+     android:textSize="34sp" />
+</LinearLayout>

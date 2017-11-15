@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/zhiwenluo/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Users/zhiwenluo/Desktop/CS321-Project/CS321_Project_G-Reminder/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0_2bcc9f0c82089e6fe9d3f779785425619fd231af.jar" />
+    </item>
+
+</items>
